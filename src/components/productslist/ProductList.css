@@ -1,0 +1,26 @@
+.setProducts {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .setProducts {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
+
+/* //table screen */
+
+@media only screen and (min-width: 450px) and (max-width: 1200px) {
+  .setProducts {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

@@ -1,0 +1,35 @@
+.containetr {
+  border: 2px solid gray;
+  box-shadow: 2px 2px 5px gray;
+}
+.setImage {
+  width: 100%;
+  height: 200px;
+}
+
+/* .title {
+
+}
+
+.price {
+} */
+
+.setButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.setContent {
+  padding: 5px;
+}
+.btn {
+  font-size: 1rem;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: teal;
+}
+.quntity {
+  font-size: 1rem;
+}
